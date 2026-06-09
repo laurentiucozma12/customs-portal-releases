@@ -59,7 +59,7 @@ Updates are delivered automatically. When a new version is available, the applic
 2. Bump the version in `package.json` (e.g. `"version": "1.0.1"`)
 3. Run the build and publish command:
    ```powershell
-   $env:GH_TOKEN = "ghp_tokenultau"
+   $env:GH_TOKEN = "ghp_yourtoken"
    npm run build -- --publish always
    ```
 4. Go to [Releases](https://github.com/laurentiucozma12/customs-portal-releases/releases)
@@ -70,6 +70,7 @@ All users with the app installed will receive the update automatically on next l
 ### Download link for the site
 
 Always points to the latest release — update the version number after each release:
+
 ```
 https://github.com/laurentiucozma12/customs-portal-releases/releases/latest/download/Customs-Portal-Setup-x.x.x.exe
 ```
